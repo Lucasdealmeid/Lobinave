@@ -1,0 +1,18 @@
+[
+    {
+        "id": 2,
+        "titulo": "Expans\u00e3o das Instala\u00e7\u00f5es do Estaleiro Naval",
+        "descricao": "A LOBINAVE anuncia a expans\u00e3o de suas instala\u00e7\u00f5es no Porto do Lobito, aumentando sua capacidade de produ\u00e7\u00e3o em 40%.",
+        "imagem": "https:\/\/via.placeholder.com\/800x400?text=Expans%C3%A3o+LOBINAVE",
+        "data": "2025-02-10",
+        "status": "Ativo"
+    },
+    {
+        "id": 3,
+        "titulo": "Parceria Estrat\u00e9gica com Empresa Portuguesa",
+        "descricao": "LOBINAVE firma parceria estrat\u00e9gica com estaleiro portugu\u00eas para transfer\u00eancia de tecnologia e know-how.",
+        "imagem": "https:\/\/via.placeholder.com\/800x400?text=Parceria+LOBINAVE",
+        "data": "2025-03-05",
+        "status": "Ativo"
+    }
+]

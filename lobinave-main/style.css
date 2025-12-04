@@ -1,0 +1,203 @@
+/* Custom Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+#hero-bg {
+    background: linear-gradient(135deg, #1a6bb0 0%, #0e4a7a 100%);
+    background-size: cover;
+    background-position: center;
+    transition: background-image 1s ease-in-out;
+}
+
+/* Section minimum heights */
+section {
+    scroll-margin-top: 80px;
+}
+
+.blue-marine {
+    color: #1a6bb0;
+}
+
+.bg-blue-marine {
+    background-color: #1a6bb0;
+}
+
+/* Navigation Active State */
+.custom-navbar a.active {
+    font-weight: bold;
+    border-bottom: 2px solid white;
+}
+
+/* Form Input Styles */
+input, textarea, select {
+    transition: all 0.3s ease;
+}
+
+input:focus, textarea:focus, select:focus {
+    outline: 2px solid #0b2c4d;
+    outline-offset: 2px;
+}
+
+/* Gallery Image Hover Effect */
+.gallery-image:hover {
+    transform: scale(1.03);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Typography */
+@media (max-width: 640px) {
+    h1 {
+        font-size: 2rem !important;
+        line-height: 1.2 !important;
+    }
+    
+    h2 {
+        font-size: 1.75rem !important;
+    }
+    
+    p {
+        font-size: 0.9rem !important;
+    }
+}
+
+/* Section Padding for Responsive */
+@media (max-width: 768px) {
+    section {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        min-height: auto !important;
+        scroll-margin-top: 60px;
+    }
+    
+    .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    /* Hero section mobile optimization */
+    .hero-section {
+        height: 70vh !important;
+        padding-top: 2rem;
+    }
+    
+    /* Button stacking on mobile */
+    .btn-stack {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .btn-stack a {
+        width: 100%;
+        text-align: center;
+    }
+    
+    /* Grid adjustments for mobile */
+    .mobile-stack {
+        flex-direction: column;
+    }
+    
+    .mobile-full {
+        width: 100% !important;
+    }
+    
+    /* Image sizing for mobile */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    /* Modal adjustments */
+    .modal-content {
+        max-height: 80vh;
+        margin: 1rem;
+        width: calc(100% - 2rem);
+    }
+    
+    /* Form adjustments */
+    .form-grid {
+        grid-template-columns: 1fr !important;
+    }
+    
+    /* Partners grid */
+    .partners-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 1rem;
+    }
+    
+    /* Services grid */
+    .services-grid {
+        grid-template-columns: 1fr !important;
+    }
+    
+    /* Gallery grid */
+    .gallery-grid {
+        grid-template-columns: 1fr !important;
+    }
+}
+
+/* Tablet optimizations */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+    
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+    
+    .partners-grid {
+        grid-template-columns: repeat(3, 1fr) !important;
+    }
+}
+
+/* Prevent horizontal scrolling */
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* Smooth transitions for all interactive elements */
+a, button, .gallery-image {
+    transition: all 0.3s ease;
+}
+
+/* Loading state for images */
+img {
+    background: #f3f4f6;
+    min-height: 100px;
+}
+
+/* WhatsApp button positioning */
+.whatsapp-button {
+    bottom: 1.5rem;
+    right: 1.5rem;
+    z-index: 40;
+}
+
+/* Modal backdrop */
+.modal-backdrop {
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+/* Custom scrollbar for modal */
+.modal-content::-webkit-scrollbar {
+    width: 6px;
+}
+
+.modal-content::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.modal-content::-webkit-scrollbar-thumb {
+    background: #1a6bb0;
+    border-radius: 10px;
+}
+
+.modal-content::-webkit-scrollbar-thumb:hover {
+    background: #0e4a7a;
+}

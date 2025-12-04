@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "titulo": "Recrutamento de Engenheiros Navais",
+        "descricao": "A LOBINAVE est\u00e1 a recrutar engenheiros navais com experi\u00eancia em projetos de constru\u00e7\u00e3o naval para integrar a nossa equipa t\u00e9cnica.",
+        "imagem": "https:\/\/via.placeholder.com\/800x400?text=Recrutamento+Engenheiros",
+        "data": "2025-01-20",
+        "status": "Inativo",
+        "candidaturas_abertas": false
+    },
+    {
+        "id": 2,
+        "titulo": "Vagas para Soldadores Especializados",
+        "descricao": "Procuramos soldadores com experi\u00eancia em soldadura naval para projetos de constru\u00e7\u00e3o e repara\u00e7\u00e3o de embarca\u00e7\u00f5es.",
+        "imagem": "https:\/\/via.placeholder.com\/800x400?text=Vagas+Soldadores",
+        "data": "2025-02-15",
+        "status": "Inativo",
+        "candidaturas_abertas": false
+    }
+]
